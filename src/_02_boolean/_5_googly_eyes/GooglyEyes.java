@@ -28,6 +28,7 @@ public class GooglyEyes extends PApplet {
     fill(0,0,0);
     ellipse(345,248,60,60);
     ellipse(433,245,60,60);
+    fill(255,255,255);
     }
 
     static public void main(String[] args) {
