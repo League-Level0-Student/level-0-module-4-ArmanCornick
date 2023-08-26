@@ -12,6 +12,8 @@ public class PiAloud {
 
 
     // 1. Make a main method and make sure your program can run
+public static void main(String[] args) {
+	String pi = "3.14159269398975323846";
 
     // 2. Make a String variable to hold 20 digits of Pi. You could use http://www.piday.org/million/ to get this.
 
@@ -34,7 +36,7 @@ public class PiAloud {
 
 
     /********************  Use these methods. DON'T CHANGE THE CODE BELOW  ******************/
-
+}
     private static void pause(int seconds) {
         try {
             Thread.sleep(1000 * seconds);
